@@ -1,0 +1,26 @@
+span{
+    padding-left: 7px;
+}
+
+.spereator{
+    display: inline;
+    border: 1px solid rgb(5, 28, 131);
+    width: 2px;
+    height: 40%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .item{
+    padding: 10px 0px  0px 0px;
+    margin-left: -2px;
+    margin-right: 3px;
+    color: #2b0fc7;
+    background:solid rgba(221, 196, 196, 0.562);
+    height: 20px;
+    width: 100%;
+    border: 1px solid rgb(5, 28, 131);
+    /*border-left: 1px solid black;*/
+    /*border-right: 1px solid black;*/
+    cursor: pointer;
+   
+}

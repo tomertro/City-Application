@@ -1,0 +1,7 @@
+<div class="container">   
+    <input #searchCity type="text" placeholder="Enter City"  />
+    <div class="wrapper-div" *ngIf="hasItems()">
+        <app-city [city] = c *ngFor="let c of cities" ></app-city>     
+    </div>
+     
+</div>
